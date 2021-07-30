@@ -1,0 +1,14 @@
+.real-time-num {
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 3px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .real-time-num > div {
+    /* width: 30px;
+    height: 40px; */
+  }
