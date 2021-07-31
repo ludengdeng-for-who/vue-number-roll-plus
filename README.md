@@ -1,3 +1,5 @@
+vue3版本请移步 **(vue-number-roll-plus)[https://www.npmjs.com/package/vue3-number-roll-plus]**
+
 ### 安装
 
 ```js
@@ -36,7 +38,7 @@ export default {
 |    属性     |   属性含义   |     类型      | 默认值  |
 | :---------: | :----------: | :-----------: | :-----: |
 |   number    |  传入的数字  | Number/String |    0    |
-| isSemicolon | 是否三位分隔 |    Boolean    |  true   |
+| isSemicolon | 是否三位分隔 |    Boolean    |  false   |
 |    speed    | 滚动速度(s)  |    Number     |    1    |
 | background  |    背景色    |    String     | #0e68cc |
 

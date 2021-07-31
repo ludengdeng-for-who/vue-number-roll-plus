@@ -1,12 +1,12 @@
-{
+  {
   "name": "vue-number-roll-plus",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "vue数字滚动组件",
   "main": "main.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-plugin":"vue-cli-service build --target lib ./src/index.js --dest vue-number-roll-plus --name main"
+    "build-plugin":"vue-cli-service build --target lib ./src/index.js --dest dist --name main"
   },
   "keywords": [
     "vue",

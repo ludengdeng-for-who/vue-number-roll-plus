@@ -41,7 +41,7 @@ export default {
     },
     isSemicolon: {
       type: Boolean,
-      default: true,
+      default: false,
     },
     speed: {
       type: Number,
