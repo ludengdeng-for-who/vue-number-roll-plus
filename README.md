@@ -1,4 +1,4 @@
-vue3版本请移步 **(vue-number-roll-plus)[https://www.npmjs.com/package/vue3-number-roll-plus]**
+vue3版本请移步 **(vue3-number-roll-plus)[https://www.npmjs.com/package/vue3-number-roll-plus]**
 
 ### 安装
 
@@ -15,8 +15,6 @@ npm install vue-number-roll-plus --save
 <template>
    <vue-number-roll-plus
       :number="9999"
-      :isSemicolon="false"
-      :speed="1"
       background="transparent"
     >
   </vue-number-roll-plus>
