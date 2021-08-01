@@ -57,26 +57,24 @@ export default {
       computedNumber: [],
     };
   },
-  watch: {
-    number() {
-      this.setComputedList();
-      setTimeout(() => {
-        this.genData();
-      }, 0);
-      this.$emit("numberChange", this.number);
+ watch: {
+    number: {
+      handler(val) {
+        this.setComputedList();
+        setTimeout(() => {
+          this.genData();
+        }, 0);
+        this.$emit("numberChange", val);
+        setTimeout(() => {
+          this.$emit("done", val);
+        }, this.speed * 1000);
+      },
+      immediate: true,
     },
-  },
-  created() {
-    this.setComputedList();
-    setTimeout(() => {
-      this.genData();
-    }, 0);
-  },
-  computed: {
-   
   },
   methods: {
     setComputedList() {
+      this.computedNumber = [];
       this.string2List(this.number).forEach((item) => {
         this.computedNumber.push(0);
       });

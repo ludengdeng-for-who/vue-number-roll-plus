@@ -3,11 +3,6 @@
   "version": "1.2.2",
   "description": "vue数字滚动组件",
   "main": "main.umd.min.js",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "build-plugin":"vue-cli-service build --target lib ./src/index.js --dest dist --name main"
-  },
   "keywords": [
     "vue",
     "vue组件",
