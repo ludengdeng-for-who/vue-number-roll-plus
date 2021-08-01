@@ -1,4 +1,4 @@
-vue3版本请移步 **(vue3-number-roll-plus)[https://www.npmjs.com/package/vue3-number-roll-plus]**
+vue3版本请移步 **[vue3-number-roll-plus](https://www.npmjs.com/package/vue3-number-roll-plus)**
 
 ### 安装
 
@@ -45,3 +45,4 @@ export default {
 |    事件名    |      事件      |  参数  |
 | :----------: | :------------: | :----: |
 | numberChange | 数字变化后触发 | number |
+| done | 数字滚动结束之后触发 | number |
